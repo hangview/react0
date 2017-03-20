@@ -1,0 +1,30 @@
+{
+  "name": "react0",
+  "version": "1.0.0",
+  "description": "从0开始构建react项目",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hangview/react0.git"
+  },
+  "author": "hangview",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hangview/react0/issues"
+  },
+  "homepage": "https://github.com/hangview/react0#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.1.0-beta.21",
+    "webpack-dev-server": "^2.1.0-beta.9"
+  }
+}
